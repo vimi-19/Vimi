@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #F4F4F4;
+
+}
+
+/* Header */
+
+.vimi_name {
+    cursor: pointer;
+}
+
+.home_header {
+    cursor: pointer;
+}
+
+.loja_header {
+    cursor: pointer;
+}
+
+.educacao_header {
+    cursor: pointer;
+}
+
+.box_smallbox {
+    cursor: pointer;
+}
+
+.components_header {
+    display: flex;
+
+    padding: 1.5% 3%;
+
+    gap: 7%;
+
+    font-size: 20px;
+
+    align-items: center;
+    color: #6A6A7C;
+
+}
+
+.components_header .vimi_name {
+    font-size: 30px;
+
+    color: #000000;
+}
+
+/* smallbox = caixa em volta do login */
+.components_header .box_smallbox {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+
+    width: 188px;
+    height: 49px;
+
+    margin-left: 35%;
+
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.box_smallbox .login_header {
+    box-sizing: border-box;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: none;
+    background: #FFFFFF;
+
+}
+
+
+/* Primeira seção*/
+main {
+    display: flex;
+}
+
+.content_esquerda {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10%;
+    margin-left: 3.7%;
+
+    width: 800px;
+}
+
+.content_esquerda .main_content {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+
+    color: #3E3E3E;
+}
+
+.content_esquerda .second_content {
+    margin-top: 1%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #3E3E3E;
+}
+
+.content_esquerda .box_smallbox {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+
+    width: 188px;
+    height: 49px;
+
+    margin-top: 3%;
+
+    background: #7469AB;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.first .content_direita {
+    margin-left: 10%;
+}
+
+.box_smallbox .saibamais_content {
+    background: #7469AB;
+    color: #F5F5F5;
+}
+
+/* Segunda seção */
+/* AQUI É O TAMANHO DA SECTION <3 */
+.second {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.content_meio {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content_meio .main_content2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+}
+
+.content_meio .component_boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 66px;
+
+    gap: 57px;
+}
+
+.content_meio .box_content_mediumbox {
+
+    display: flex;
+
+    width: 373px;
+    height: 292px;
+
+    background: #CEE2C2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Terceira seção */
+.third {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    background-color: #AEA7D1;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 529px;
+}
+
+.third .content_esquerda {
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: #AEA7D1;
+
+    margin-top: 100px;
+}
+
+.third .content_esquerda .main_content {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+
+    color: #3E3E3E;
+
+    background-color: #AEA7D1;
+}
+
+.third .vimi_name {
+    display: block;
+
+    margin-top: -12%;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #000000;
+
+    background-color: #AEA7D1;
+}
+
+.third img {
+
+    width: 692px;
+}
+
+.third .content_direita {
+    margin-left: 30%;
+}
+
+.box_mediumbox {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3%;
+
+    width: 315px;
+    height: 69px;
+
+    background: #FDF0AB;
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    margin-bottom: 10%;
+
+
+}
+
+.box_mediumbox .cadastro_content {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+
+    background-color: #FDF0AB;
+    color: #000000;
+
+}
+
+/* Quarta seção */
+.fourth {
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.fourth .second_content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #3E3E3E;
+
+    margin-bottom: 5%;
+}
+
+/* CAIXA DE CONTEUDO NA DIREITA */
+
+.fourth .content_esquerda {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.fourth .descricao_box {
+    margin-left: 20px;
+
+}
+
+.fourth .descricao {
+    margin-left: 57px;
+
+    width: 297px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #000000;
+
+}
+
+/* CAIXA DE CONTEUDO NA ESQUERDA*/
+.fourth .content_direita2 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 100px;
+
+    align-items: center;
+
+}
+
+.fourth .descricao_box {
+    margin-left: 20px;
+
+}
+
+.fourth .descricao {
+    margin-right: 57px;
+
+    width: 297px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #000000;
+
+
+}
+
+.fourth .content_esquerda {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 100px;
+
+    align-items: center;
+
+}
+
+
+
+
+/*  Ultima seção */
+.footer {
+
+    display: block;
+
+    flex-direction: row;
+
+}
+
+.footer .last_content p{
+    position: absolute;
+
+    left: 914px;
+    top: 500%;
+    display: block;
+    width: 600px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+
+
+    color: #F5F5F5;
+
+    background-color: #7469AB;
+
+
+}
+.last_content{
+    background-color: #7469AB;
+}
+.primeira {
+    width: 692px;
+    height: 100%;
+    
+}
+
+.terceira {
+    width: 402px;
+    height: 402px;
+}
+
+.quarta {
+    width: 350px;
+    height: 328px;
+}
+
+.quinta {
+    width: 600px;
+    height: 500px;
+}
+
+.sexta {
+    width: 100%;
+
+}
