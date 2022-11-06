@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("/images/background.png");
+    background-size: cover;
+
+}
+
+.vimi_name {
+    display: flex;
+
+    margin-top: 3%;
+    margin-left: 4%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.body {
+
+    width: 100%;
+    display: flex;
+
+    padding-top: 6%;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 768px;
+    height: 516px;
+
+    border-radius: 30px;
+
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.content_container {
+    overflow: scroll;
+    overflow-x: hidden;
+
+    margin-top: 1%;
+
+}
+
+::-webkit-scrollbar-track {}
+
+.container_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+    align-items: center;
+
+    margin-top: 10%;
+
+}
+
+
+
+.container_imagens {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+
+    flex-wrap: wrap;
+
+    height: 150px;
+}
+
+
+
+.container_imagens img {
+    border-radius: 20px;
+
+    width: 154px;
+    height: 162px;
+
+    cursor: pointer;
+}
+
+.container_bottom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-right: 11.8%;
+    margin-left: 9.8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    border-radius: 50px;
+
+    background-color: #7469AB;
+
+    cursor: pointer;
+}
+
+.last_text_content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media(max-width: 800px){
+    .container {
+        width: 384px;
+        height: 516px;
+    
+        border-radius: 30px;
+    
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    .content_container {
+        overflow: scroll;
+        overflow-x: hidden;
+    
+        margin-top: 1%;
+        margin-left: -1%;
+
+        gap: 10px;
+    }
+    .container_imagens {
+        display: flex;
+    
+        justify-content: space-between;
+    
+        margin-left: 10%;
+        margin-top: 5%;
+    
+    
+        flex-wrap: wrap;
+    
+        height: 150px;
+    }
+    
+}
