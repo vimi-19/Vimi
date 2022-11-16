@@ -247,7 +247,7 @@ textarea{
             border: 2px solid#7469AB;
             width: 90%;
             height: 20vh;
-            margin-left: 8%;
+             align-self: end;
            
 }
 #assunto{
