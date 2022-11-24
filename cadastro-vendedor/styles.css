@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+html {
+
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+}
+
+.body {
+    display: flex;
+    width: 100vw;
+
+    flex-direction: row;
+}
+
+header {
+    margin-top: 5%;
+    margin-left: 11.5%;
+
+    display: flex;
+}
+
+header span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 61px;
+
+    color: #F5F5F5;
+}
+
+header .logo {
+    margin-left: 40%;
+
+    width: 131px;
+    height: 52.66px;
+
+    cursor: pointer;
+}
+
+header .vimi_roxo {
+    color: #7469AB;
+}
+
+body .image_box {
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+body img {
+
+
+    width: 883px;
+    height: 464px;
+}
+
+.content_box {
+    display: flex;
+    flex-direction: column;
+
+
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 2%;
+
+    width: 539px;
+    height: 428px;
+
+    background: #FFFFFF;
+    border-width: 3px 0px 0px 3px;
+    border-style: solid;
+    border-color: #E7778E;
+    border-radius: 30px;
+
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+
+    align-items: center;
+}
+
+.content_box .cadastro {
+
+    margin-right: 33%;
+    margin-top: 7%;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 43px;
+
+    color: #E7778E;
+
+}
+
+.content_box .info1 {
+    padding-right: 63%;
+    margin-top: 25px;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.content_box .info2 {
+    padding-right: 66%;
+    margin-top: 25px;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+
+input:focus {
+    outline: none !important;
+}
+
+.content_box .input {
+
+    padding: 10px;
+    font-size: 2.4rem;
+
+    width: 408px;
+    height: 60px;
+
+    border-radius: 15px;
+
+
+
+    border: 1px solid #E7778E;
+
+}
+
+.continuar_box {
+    margin-top: 35px;
+
+    width: 408px;
+    height: 60px;
+
+    background: #E7778E;
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.continuar_box span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #F5F5F5;
+}
+
+@media (max-width:768px) {
+    html {
+
+        font-size: 50%;
+    }
+
+    body {
+        background-color: #F5F5F5;
+        background-image: none;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+
+        margin: 0;
+        padding: 0;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+    header span {
+        font-style: normal;
+        font-weight: 800;
+        line-height: 61px;
+
+        color: #252525;
+    }
+
+    header .logo {
+        margin-left: 0;
+
+        width: 131px;
+        height: 52.66px;
+
+        cursor: pointer;
+    }
+    
+
+    .body {
+        display: flex;
+
+        position: relative;
+        right: 2%;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .body img {
+        display: none;
+    }
+
+    .content_box {
+        margin: 0;
+        padding-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+
+
+
+        width: 300px;
+        height: 428px;
+
+        background: #FFFFFF;
+        border-width: 0px 0px 0px 0px;
+        border-style: solid;
+        border-radius: 30px;
+
+        box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.14);
+        border-radius: 30px;
+
+        align-items: center;
+    }
+
+    .content_box .input {
+
+        padding: 10px;
+        font-size: 2.4rem;
+
+        width: 200px;
+        height: 60px;
+
+        border-radius: 15px;
+
+
+
+        border: 1px solid #E7778E;
+
+    }
+
+    .continuar_box {
+        margin-top: 35px;
+
+        width: 200px;
+        height: 60px;
+
+        background: #E7778E;
+        border-radius: 15px;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+    }
+
+    .info1 {
+        margin-left: 40px;
+    }
+
+    .info2 {
+        margin-left: 40px;
+    }
+
+    .content_box .cadastro {
+        margin: 0;
+        margin-top: 50px;
+    }
+}

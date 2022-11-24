@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&display=swap%27');
+
+/* Primeira etapa */
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url('./images/background.png');
+    background-size: cover;
+}
+
+header img {
+    margin: 2%;
+
+    width: 131px;
+    height: 52.66px;
+
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.main_text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 37px;
+
+    color: #7469AB;
+
+}
+
+.content_box {
+    display: flex;
+
+    align-items: center;
+}
+
+.body .content_box {
+    margin-top: 100px;
+
+    width: 903px;
+    height: 479px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content_box .passo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #7469AB;
+
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.button {
+    margin-top: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 729.5px;
+    height: 60px;
+
+    background: #7469AB;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
+.proxima_etapa {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #F5F5F5;
+
+}
+
+
+/* Segunda etapa */
+
+.checkbox_main {
+    display: flex;
+
+    margin-top: 15px;
+    margin-right: 185px;
+
+    gap: 20px;
+    align-items: center;
+}
+
+.checkbox_input {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #252525;
+
+}
+
+/* Terceira etapa*/
+
+.content_container {
+    display: flex;
+
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+    width: 600px;
+
+    gap: 60px;
+}
+
+.container_imagens {
+    display: flex;
+
+    gap: 40px;
+    margin-top: 5%;
+
+
+    flex-wrap: wrap;
+
+    height: 200px;
+}
+
+
+
+.container_imagens img {
+    border-radius: 20px;
+
+    width: 154px;
+    height: 162px;
+
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 60%;
+    }
+
+    header img {
+
+        width: 131px;
+        height: 52.66px;
+
+        cursor: pointer;
+    }
+
+    body {
+        background-image: none;
+        background-color: #252525;
+
+        text-align: center;
+    }
+
+    .body .content_box {
+        margin-top: 100px;
+
+        width: 650px;
+        height: 600px;
+
+        background:#FFFFFF;
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .content_box .passo{
+        margin-top: 5%;
+        color:#7469AB
+    }
+    .content_container {
+        display: flex;
+    
+        overflow: scroll;
+        overflow-x: hidden;
+    
+    
+        width: 600px;
+        height: 400px;
+    
+        gap: 60px;
+    }
+
+    .button {
+        margin-top: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 200px;
+        height: 60px;
+
+
+        background: #7469AB;
+        border-radius: 15px;
+
+        cursor: pointer;
+    }
+
+}
+@media (max-width:375px) {
+    html {
+        font-size: 60%;
+    }
+
+    header img {
+
+        width: 131px;
+        height: 52.66px;
+
+        cursor: pointer;
+    }
+
+    body {
+        background-image: none;
+        background-color: #252525;
+
+        text-align: center;
+    }
+
+    .body .content_box {
+        margin-top: 10px;
+
+        width: 370px;
+        height: 600px;
+
+        background:#FFFFFF;
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .content_box .passo{
+        margin-top: 5%;
+        color:#7469AB
+    }
+    .content_container {
+        display: flex;
+    
+        overflow: scroll;
+        overflow-x: hidden;
+    
+    
+        width: 350px;
+        height: 400px;
+    
+    }
+
+    .button {
+        margin-top: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 200px;
+        height: 60px;
+
+
+        background: #7469AB;
+        border-radius: 15px;
+
+        cursor: pointer;
+    }
+    .checkbox_main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .button {
+        margin-bottom: 7px;
+
+        width: 200px;
+        height: 60px;
+
+
+        cursor: pointer;
+    }
+
+}

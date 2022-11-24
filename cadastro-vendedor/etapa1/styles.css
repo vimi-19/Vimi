@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&display=swap%27');
+
+
+/* Primeira etapa */
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url('./images/background.png');
+    background-size: cover;
+}
+
+header img {
+    margin: 2%;
+
+    width: 131px;
+    height: 52.66px;
+
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.main_text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 37px;
+
+    color: #7469AB;
+
+}
+
+.content_box {
+    display: flex;
+
+    align-items: center;
+}
+
+.body .content_box {
+    margin-top: 100px;
+
+    width: 903px;
+    height: 479px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content_box .passo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #7469AB;
+
+}
+
+.first_line {
+    display: flex;
+    margin-top: 50px;
+}
+
+.first_line .nome {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #252525;
+
+}
+
+.first_line .nome1 {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #252525;
+
+}
+
+.first_line .nome2 {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #252525;
+
+}
+
+input:focus {
+    outline: none !important;
+}
+.nome_e_caixa{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.insere {
+    padding: 10px;
+    font-size: 2.0rem;
+
+    width: 383px;
+    height: 50px;
+
+    border: 1px solid #7469AB;
+    border-radius: 15px;
+}
+
+.insere1 {
+    padding: 10px;
+    font-size: 2.0rem;
+
+    width: 294px;
+    height: 50px;
+
+    border: 1px solid #7469AB;
+    border-radius: 15px;
+}
+
+.button {
+    margin-top: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 729.5px;
+    height: 60px;
+
+    background: #7469AB;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
+.proxima_etapa {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #F5F5F5;
+
+}
+
+/* Segunda etapa */
+
+
+
+
+
+@media (max-width:768px) {
+    html {
+        font-size: 60%;
+    }
+    header img {
+    
+        width: 131px;
+        height: 52.66px;
+    
+        cursor: pointer;
+    }
+    body{
+        background-image: none;
+        background-color: #fefefe;
+
+        text-align: center;
+    }
+    .body .content_box {
+        margin-top: 100px;
+    
+        width: 275px;
+        height: 479px;
+    
+        background: #FFFFFF;
+        border-radius: 30px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .first_line{
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+    .first_line .nome {
+        margin-bottom: 0;
+    }
+    
+    .first_line .nome1 {
+        margin-bottom: 0;
+    
+    }
+    .insere{
+        padding: 10px;
+        font-size: 2.0rem;
+    
+        width: 250px;
+        height: 50px;
+    
+        border: 1px solid #7469AB;
+        border-radius: 15px;
+    }
+    
+    .insere1 {
+        margin-left: 0;
+        padding: 10px;
+        font-size: 2.0rem;
+    
+        width: 250px;
+        height: 50px;
+    
+        border: 1px solid #7469AB;
+        border-radius: 15px;
+    }
+    .button {
+        margin-top: 25px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 200px;
+        height: 60px;
+
+    
+        background: #7469AB;
+        border-radius: 15px;
+    
+        cursor: pointer;
+    }
+    .nome_e_caixa{
+        display: flex;
+
+        gap: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
