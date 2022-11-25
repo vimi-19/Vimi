@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/logo.png">
+        <nav id="nav_links">
+            <a href="#">Home</a>
+            <a href="#">Lojas</a>
+            <a href="#">Eventos</a>
+            <a href="#">Educação</a>
+        </nav>
+        <div class="input-conteiner">
+
+            <input type="text" id="texto">
+        </div>
+        <div id='bt'>
+            <button id="b1">Ver Perfil</button>
+            <button id="b2">Seus Pedidos</button>
+        </div>
+        <div class="menu_icon_mobile">
+            <button><img src="./images/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </header>
+    <div class="titulo">Carrinho de compras</div>
+    <div class="corpo">
+        <div class="left_side">
+            <div class="pedidos_esvaziar">
+                <span class="pedidos">Pedidos</span>
+                <span class="esvaziar_carrinho">Esvaziar carrinho</span>
+            </div>
+            <div class="container_itens">
+                <div class="itens">
+                    <div><input type="checkbox" class="select"></div>
+                    <img class="item_foto" src="./images/estojo.jfif" alt="">
+                    <div class="item_info">
+                        <span class="item_name">Pijamija Infantil</span>
+                        <span class="item_price">R$ 250,00</span>
+                        <span class="item_seller">Loja da Dona Diva</span>
+                    </div>
+                    <div class="quantidade">
+                        <span class="menos">-</span>
+                        <div class="container_quantidade">1</div>
+                        <span class="mais">+</span>
+                    </div>
+                    <div class="cancelar">
+                        <img class="lixeira" src="./images/lixeira.png" alt="">
+                    </div>
+
+                </div>
+                <div class="itens">
+                    <div><input type="checkbox" class="select"></div>
+                    <img class="item_foto" src="./images/bolsa.jfif" alt="">
+                    <div class="item_info">
+                        <span class="item_name">Pijamija Infantil</span>
+                        <span class="item_price">R$ 250,00</span>
+                        <span class="item_seller">Loja da Dona Diva</span>
+                    </div>
+                    <div class="quantidade">
+                        <span class="menos">-</span>
+                        <div class="container_quantidade">1</div>
+                        <span class="mais">+</span>
+                    </div>
+                    <div class="cancelar">
+                        <img class="lixeira" src="./images/lixeira.png" alt="">
+                    </div>
+
+                </div>
+                <div class="itens">
+                    <div><input type="checkbox" class="select"></div>
+                    <img class="item_foto" src="./images/girafinha.jpg" alt="">
+                    <div class="item_info">
+                        <span class="item_name">Pijamija Infantil</span>
+                        <span class="item_price">R$ 250,00</span>
+                        <span class="item_seller">Loja da Dona Diva</span>
+                    </div>
+                    <div class="quantidade">
+                        <span class="menos">-</span>
+                        <div class="container_quantidade">1</div>
+                        <span class="mais">+</span>
+                    </div>
+                    <div class="cancelar">
+                        <img class="lixeira" src="./images/lixeira.png" alt="">
+                    </div>
+
+                </div>
+                <div class="itens">
+                    <div><input type="checkbox" class="select"></div>
+                    <img class="item_foto" src="./images/crianca.jpg" alt="">
+                    <div class="item_info">
+                        <span class="item_name">Pijamija Infantil</span>
+                        <span class="item_price">R$ 250,00</span>
+                        <span class="item_seller">Loja da Dona Diva</span>
+                    </div>
+                    <div class="quantidade">
+                        <span class="menos">-</span>
+                        <div class="container_quantidade">1</div>
+                        <span class="mais">+</span>
+                    </div>
+                    <div class="cancelar">
+                        <img class="lixeira" src="./images/lixeira.png" alt="">
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+            <div class="frete_prazo">
+                <span class="pedidos">Frete e prazo</span>
+            </div>
+            <div class="container_frete">
+                <div class="calc_frete_input_b">
+                    <div class="frete_cep">
+                        <span class="calc_frete">Calcular o frente</span>
+                        <input class="input_cep" placeholder="Insira seu CEP" type="text">
+                    </div>
+                    <div id='bt'>
+                        <button id="b3">Calcular</button>
+                    </div>
+                </div>
+                <div class="container_retira">
+                    <img class="retiravimi" src="./images/entrega.png">
+                    <div class="retira_info">
+                        <span class="metodo">Sedex</span>
+                        <span class="metodo_info">Receba em até 3 dias úteis. Entrega para todo o Brasil.</span>
+                        <span class="metodo_valor">R$ 22,40</span>
+                    </div>
+                    <input class="check" type="radio">
+
+                </div>
+                <div class="container_retira">
+                    <img class="retiravimi" src="./images/retira.png">
+                    <div class="retira_info">
+                        <span class="metodo">Retira VIMI</span>
+                        <span class="metodo_info">Escolha uma estação do metrô de São Paulo para retirar</span>
+                        <span class="metodo_valor">Grátis</span>
+                    </div>
+                    <input class="check1" type="radio">
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="right_side">
+            <div class="pedido_titulo">
+                <span class="pedidos">Resumo do pedido</span>
+            </div>
+            <div class="container_pedido">
+                <div class="info_pedido">
+                    <div class="info_itens_linha">
+                        <span class="quantidade_produtos">Quantidade de produtos (2)</span>
+                        <span class="preco">R$ 250,00</span>
+                    </div>
+                    <div class="info_itens_linha1">
+                        <span class="quantidade_produtos">Frete</span>
+                        <span class="preco">R$ 22,40</span>
+                    </div>
+                </div>
+                <div class="valor_total">
+                    <img class="carrinho" src="./images/carrinho.png" alt="">
+                    <span class="valor_total_preco">R$ 272,40</span>
+                </div>
+                <div class="finalizar_compra">
+                    <button id="bcompra">Comprar agora</button>
+                    <button id="bcontinuar">Continuar comprando</button>
+                </div>
+            </div>
+            
+            <div class="cupom">
+                <div class="frete_cep">
+                    <span class="calc_frete">Cupom de desconto</span>
+                    <input class="input_cep" placeholder="Insira o seu cupom" type="text">
+                    
+                </div>
+                <button id="aplicar_cupom">Aplicar</button>
+                
+            </div>
+
+        </div>
+
+</body>
+
+</html>

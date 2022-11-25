@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+html {
+
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.body {
+    display: flex;
+    width: 100vw;
+
+    flex-direction: row;
+}
+
+/* HEADER*/
+header {
+    height: 74px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+
+}
+
+header nav a {
+
+    text-decoration: none;
+    color: #6A6A7C;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+
+nav a:hover {
+
+    text-decoration: underline 3px #7469AB;
+
+}
+
+nav {
+
+    margin-top: 30px;
+
+}
+
+div button {
+
+    margin-right: 20px;
+}
+
+.logo {
+
+    width: 118.5px;
+    height: 45.66px;
+
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+input {
+
+    outline: 0;
+    background: none;
+    border-style: none;
+    position: relative;
+    top: 3px;
+    left: 25px;
+}
+
+label {
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.input-conteiner {
+
+    background-color: #D6D6D6;
+    border-radius: 20px;
+    margin-top: 27px;
+    height: 3rem;
+    width: 30rem;
+}
+
+
+#b1 {
+    width: 134px;
+    height: 38px;
+
+    padding: 6px 29px 6px 29px;
+    border-radius: 30px;
+
+    border-style: none;
+
+
+    color: #252525;
+
+    background: rgba(231, 119, 142, 0.5);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    cursor: pointer;
+
+
+}
+
+#bt {
+
+    margin-top: 26px;
+
+
+}
+
+#b2 {
+    width: 150px;
+    height: 38px;
+
+    padding: 6px 29px 6px 29px;
+    background: rgba(116, 105, 171, 0.5);
+
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    border-style: none;
+}
+
+.menu_icon_mobile {
+    display: none;
+}
+
+/* HEADER*/
+@media (min-width:768px) and (max-width:1045px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    header nav a {
+        margin-left: 4px;
+
+    }
+
+    .conteiner {
+        width: 350px;
+    }
+
+
+
+
+
+}
+
+/* HEADER*/
+
+@media (max-width:767px) {
+
+
+    html {
+
+        font-size: 40%;
+    }
+
+    #nav_links {
+        display: none;
+    }
+
+    #bt {
+        display: none;
+    }
+
+
+    .menu_icon_mobile {
+
+        display: block;
+
+    }
+
+    .menu_icon_mobile button {
+
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 70%;
+
+
+
+    }
+
+
+
+    main {
+
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .conteiner {
+        margin-top: 20%;
+        margin-left: 60%;
+        width: 300px;
+    }
+
+    .conteiner button {
+        width: 190px;
+        height: 42px;
+
+    }
+
+}
+
+/* CORPO */
+.corpo {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 3.8%;
+    width: 900px;
+
+
+}
+
+.titulo {
+    margin-left: 7%;
+    padding-bottom: 2%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 30px;
+
+    color: #252525;
+
+    width: 1500px;
+
+    border-bottom: 0.5px solid #7469AB;
+
+}
+
+.pedidos_esvaziar {
+
+    margin-top: 25px;
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+
+.pedidos {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 24px;
+
+    color: #252525;
+}
+
+.esvaziar_carrinho {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 24px;
+
+    color: #7469AB;
+
+
+    margin-left: 520px;
+
+    cursor: pointer;
+}
+
+.itens {
+    display: flex;
+    margin-left: 7%;
+
+    width: 784px;
+    height: 205px;
+
+    border: 0.5px solid #7469AB;
+    border-radius: 20px;
+    padding-bottom: 22px;
+}
+
+.select {
+    margin-top: 22px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.item_foto {
+    margin-top: 22px;
+    margin-left: 50px;
+    margin-right: 25px;
+
+    width: 200px;
+    height: 160px;
+
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+
+.item_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+
+    gap: 40px;
+}
+
+.item_name {
+    width: 200px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 24px;
+
+    color: #252525;
+}
+
+.item_price {
+    width: 200px;
+    font-weight: 500;
+    font-size: 3.0rem;
+    line-height: 37px;
+
+    color: #252525;
+}
+
+.item_seller {
+    width: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #7469AB;
+
+}
+
+.quantidade {
+
+    display: flex;
+    margin-top: 11%;
+
+}
+
+.menos {
+    margin-top: 3px;
+    margin-right: 5px;
+    font-size: 3rem;
+
+    cursor: pointer;
+}
+
+.mais {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.container_quantidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 89px;
+    height: 48px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.lixeira {
+    width: 40px;
+    height: 40px;
+
+    margin-top: 22px;
+    margin-left: 100px;
+
+    cursor: pointer;
+}
+
+.container_itens {
+    display: flex;
+    flex-direction: column;
+
+    height: 450px;
+
+    gap: 20px;
+
+    overflow-y: auto;
+}
+
+.container_itens::-webkit-scrollbar {
+    display: none;
+}
+
+.frete_prazo {
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+
+.container_frete {
+    margin-left: 7%;
+    margin-bottom: 2%;
+
+    width: 784px;
+    height: 365px;
+
+    border: 0.5px solid #7469AB;
+    border-radius: 20px;
+    padding-bottom: 22px;
+}
+
+.calc_frete_input_b {
+    display: flex;
+    flex-direction: row;
+}
+
+.frete_cep {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc_frete {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 2px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 18px;
+
+    color: #252525;
+
+}
+
+.input_cep {
+    margin-top: 15px;
+    padding-left: 5px;
+    width: 330px;
+    height: 50px;
+
+    font-size: 1.5rem;
+
+    border: 1px solid #7469AB;
+    border-radius: 15px;
+}
+
+#b3 {
+    margin-top: 32px;
+    margin-left: 75px;
+
+    width: 150px;
+    height: 50px;
+
+    background: rgba(116, 105, 171, 0.5);
+
+    border-radius: 15px;
+
+    border-style: none;
+
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7469AB;
+
+}
+
+.container_retira {
+    width: 676px;
+    height: 86px;
+
+    border: 1px solid #7469AB;
+    border-radius: 15px;
+}
+
+.container_retira {
+    display: flex;
+    align-items: center;
+
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.retiravimi {
+
+    margin-left: 20px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.retira_info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.metodo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 18px;
+
+    color: #252525;
+}
+
+.metodo_info {
+    width: 422px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 12px;
+
+    color: #252525;
+    background: rgba(255, 190, 23, 0.5);
+}
+
+.metodo_valor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 12px;
+
+    color: #414141;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+}
+
+.check1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 125px;
+    gap: 20px;
+}
+
+.pedido_titulo {
+    margin-top: 25px;
+}
+
+.container_pedido {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 537px;
+    height: 437px;
+
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 20px;
+}
+
+.info_pedido {
+    display: flex;
+    flex-direction: column;
+
+    width: 438px;
+    margin-top: 25px;
+
+    gap: 10px;
+
+    border-bottom: 1px solid #7469AB;
+}
+
+.info_itens_linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.info_itens_linha1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.quantidade_produtos {
+    width: 277px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 24px;
+
+    color: rgba(65, 65, 65, 0.8);
+}
+
+.preco {
+
+    margin-left: 62px;
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 24px;
+
+    color: #414141;
+}
+
+.valor_total {
+    display: flex;
+    margin-top: 10px;
+
+    align-items: center;
+
+    gap: 300px;
+}
+
+.carrinho {
+    width: 38px;
+    height: 38px;
+}
+
+.valor_total_preco {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #252525;
+}
+
+.finalizar_compra {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#bcompra {
+    margin-top: 42px;
+
+    width: 385px;
+    height: 59px;
+
+    background: #7469AB;
+    border-radius: 15px;
+
+    border-style: none;
+
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#bcontinuar {
+    margin-top: 42px;
+
+    width: 385px;
+    height: 59px;
+
+    background: rgba(116, 105, 171, 0.2);
+    border-radius: 15px;
+
+    border-style: none;
+
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7469AB;
+}
+
+.cupom {
+    display: flex;
+    flex-direction: row;
+
+    width: 537px;
+    height: 147px;
+
+    border: 1px solid #7469AB;
+    border-radius: 15px;
+}
+
+#aplicar_cupom {
+    margin-top: 55px;
+    margin-left: 50px;
+
+    width: 130px;
+    height: 50px;
+
+    background: rgba(116, 105, 171, 0.2);
+    border-radius: 15px;
+
+    border-style: none;
+
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7469AB;
+}
