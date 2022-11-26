@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+html{
+
+    font-size: 10px;
+
+}
+*{
+  
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+/*---------------------------header-pc-------------------------------*/
+header{
+
+
+    background-color: #f5f5f5;
+}
+
+ .header-pc{
+    height: 74px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+ .header-pc nav a{
+   
+    text-decoration: none;
+    color:#6A6A7C;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    
+}
+
+nav a:hover {
+
+    text-decoration: underline 3px #7469AB;
+
+}
+
+
+.logo{
+   
+  height: 70%;
+     
+}
+
+#texto{
+  
+    outline:0;
+    background: none;
+    border-style: none;
+    position: relative;
+    top: 3px;
+    left:30px;
+    width: 80%;
+}
+
+.input-conteiner{
+
+    background-color:#D6D6D6;
+    border-radius: 20px;
+    height: 3rem;
+    width: 30rem;
+}
+
+.conteiner-bt{
+
+    display: flex;
+    
+}
+.botao{
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+padding:6px 29px 6px 29px;
+border-radius: 30px;
+border-style: none;
+cursor: pointer;
+color:white;
+margin-right: 20px;
+
+}
+
+
+#b1{
+    background-color: #E7778E;
+    
+    }
+    #b2{
+        background-color: #252525;
+        
+        }
+
+
+    /*-------------------------------header-mobile-------------------------------------*/
+
+
+    .header-mobile{
+
+        display: flex;
+        flex-direction: column;
+
+        display: none;
+
+    }
+/*-------------------------------produtos-------------------------------------*/
+
+        main{
+
+            display: flex;
+            
+            margin-top: 5%;
+
+            
+        }
+
+        .conteiner-produto{
+            display: flex;
+           justify-content: center;
+            align-items: flex-start;
+            width: 60vw;
+            height: 80vh;
+            border-bottom: 2px solid #d9d9d9;
+            margin-left: 3%;
+           
+        }
+     .outros-produtos{
+        display: grid;
+        height: 80%;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+        gap: 5%;
+
+     }
+    .indicacao{
+
+      
+       width: 88px;
+       height: 88px;
+       background-color: #d9d9d9;
+       border-radius:5px;
+
+
+    }
+
+    .produto{
+        background-image: url(https://s3-alpha-sig.figma.com/img/baf2/7c82/86b7df06c37cb06900a264dae987e917?Expires=1670198400&Signature=SqUHEj7kJK~cQBIR5Ogqwe4iUqpcSlTS8u9m0ua9h-zHYQ~Z~GqtbipYWsln17agui0t9OK9Ez9sg0iRQ7q~pwCze6eXAm0DY9yDDrgd4TTRmMc8gDmsHC0DNmPGYCqDZOJnk-mMgvJ6tr4vtu9dEcfSvbvFhFsNQRwUOQyv4NTJaKOjNwghubjuaAupi~WYTPvKLNrRD3YxBpnxSiPRo3P1P9Htd0Te42vBF5vGejChogJeWSoTryMGHZTE605vJ2KAqQgaMnb-aMCW78Do-pFpv1HCASqMe81qfCVng6LsRESe2GZLWTRiCqM2pFJUeEoIGhxgRAbkxQ-BQZSYQg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        width: 50%;
+        height: 80%;
+        margin-left: 20%;
+        border-radius: 20px;
+    }
+
+    .botao-pequeno{
+        margin:0 5% 5% 0;
+        height: 50px;
+        width: 50px;
+        border:none;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+    }
+    /*-------------------------------comprar ou adicionar-------------------------------------*/
+
+        .pagar{
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30vw;
+            height: 80vh;
+            border:2px solid #d9d9d9;
+            border-radius:10px;
+            margin-left: 3%;
+            font-size: 1.3rem;
+        }
+
+        .nome-produto{
+
+            font-weight: 500;
+            font-size: .9rem;
+            margin-top: 10%;
+        }
+
+        .valor{
+
+            margin:5% 0;
+        }
+        .preco{
+
+            font-size: 3.5rem;
+          
+        }
+
+
+        .frete{
+
+            display: flex;
+
+        }
+
+        .frete img{
+
+            width: 30px;
+            height: 30px;
+            margin-right: 2% ;
+
+        }
+        .rosa{
+
+            color:#E7778E;
+        }
+        
+        .roxo{
+
+            color:#7469AB;
+        }
+
+        .acao-produto{
+
+            width: 70%;
+            height: 9%;
+            border-radius: 15px;
+            font-weight: 600;
+            margin:3% 0;
+            cursor:pointer;
+            
+
+        }
+
+        #bt-rosa{
+
+            background-color: #E7778E;
+            border:2px solid #E7778E;
+            color:white; 
+        }
+
+        #bt-rosaClaro{
+             background-color:  rgba(231, 119, 142, 0.2);
+            border:  rgba(231, 119, 142, 0.2);
+            color:#E7778E;
+
+        }
+
+        /*-------------------------------Avaliação-------------------------------------*/
+        .avaliacao{
+
+            width: 100vw;
+            margin-left: 3%;
+            display: flex;
+            align-items: center;
+
+
+    }
+
+    .titulo2{
+
+        font-size: 2.3rem;
+        margin: 3% 0;
+    }
+
+    .texto-comentarios{
+
+        border:2px solid #D9d9d9;
+        width: 60vw;
+        height: 70vh;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+        
+    }
+
+    .box{
+
+        margin-left: 7%;
+
+    }
+
+    .nome{
+        display: flex;
+        font-size: 1.3rem;
+    }
+ 
+       
+        .input-avaliacao{
+
+            width: 90%;
+            padding: 9px 0;
+            border: 0;
+            outline: none;
+            background: #d9d9d9;
+        }
+
+
+        .comentar{
+
+            display:flex;
+            margin-left: 7%;
+            align-items: center;
+            width: 100%;
+
+
+        }
+
+        .comentario{
+
+            width: 60%;
+
+        }
+
+        .textoinput{
+
+            font-weight: 400;
+            font-size: 18px;
+            margin-left: 7%;
+
+        }
+
+        .input-comentario{
+
+            width: 100%;
+            background: #F5F5F5;
+            border: 1px solid #C6C6C6;
+            border-radius: 10px;
+            padding: 9px 0;
+            outline:0;
+
+        }
+        .enviar{
+            width: 20%;
+            height: 100%;
+            border-radius: 10px;
+            font-weight: 600;
+            background-color: #E7778E;
+            border:2px solid #E7778E;
+            color:white; 
+            margin-left: 4%;
+            cursor:pointer;
+        }
+/*-----------------------------informação---------------------------------------*/
+
+.info-vendedor{
+
+    margin-top: 5%;
+    height: 70vh;
+    width: 30vw;
+    border: #D9d9d9 solid 2px;
+    border-radius: 15px;
+    margin-left: 3%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-vendedor div{
+
+    margin: 3% 4%;
+}
+
+
+.info-vendedor p{
+
+    margin: 0 4%;
+}
+
+
+    .check{
+
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: blue;
+        
+    }
+
+    .row{
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nome-vendedor{
+
+        margin: 5%;
+    }
+
+    .ponto{
+
+        width: 30px;
+        margin-left: 3%;
+
+    }
+    .estrelas{
+
+        font-size: 4rem;
+    }
+ /*-------------------------------recomendação-------------------------------------*/
+
+
+
+ .separado{
+
+
+    width: 93VW;
+    height: 2px;
+    background-color: #d9d9d9;
+    margin: 5% 0 3% 3%;
+
+
+ }
+.recomendados{
+
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.colu{
+
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   justify-content: center;
+   align-items: center;
+
+}
+h3{
+
+    font-size: 3rem;
+    margin: 3% 0 0 3%;
+    font-weight: 500;
+}
+
+.box-recomendados{
+
+
+    width: 70%;
+    height: 70%;
+    background-color: #7469AB;
+    border-radius: 15%;
+    justify-self: center;
+}
+
+
+    /*-------------------------------@media-------------------------------------*/
+
+
+
+    @media (min-width:768px) and ( max-width:1045px){
+
+        html{
+            font-size: 50%;
+        }
+    
+        .header-pc nav a{
+                margin-left: 1px;
+                
+        }
+    }
+
+    @media (min-width:763px) and (max-width:823px){
+
+       
+
+        .input-conteiner{
+
+           
+            width: 20rem;
+        }
+
+    }
+    
+    @media  (max-width:767px) {
+    
+    
+        html{
+    
+            font-size: 40%;
+        }
+
+        header{
+
+            padding-bottom: 10px;
+
+        }
+        .header-pc{
+
+            display: none;
+        }
+    
+        .header-mobile {
+            
+            display: block;
+            }
+
+            .row1{
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+            }
+            .logo{
+
+                margin-top:2%;
+                margin-left: 5%;
+                width: 150px;
+
+            }
+            .row2{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 4%;
+            }
+
+            #texto{
+
+                width: 80%;
+            }
+
+            .input-conteiner{
+                
+                width: 70%;
+                padding: 10px 0;
+            }
+    
+            .menu_icon_mobile  {
+    
+                background-color: gray;
+                border:none;
+                border-radius: 5px;
+                margin-top: 20px;
+                margin-right: 10%;
+
+                }
+
+                @media (max-width:528px){
+
+                    .header-pc{
+                       display: none;
+                    }
+
+
+                    .frete img{
+
+                        width: 10px;
+                        height: 10px;
+                       
+            
+                    }
+                }
+
+                @media (max-width:446px){
+
+
+                    main{
+
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                    }
+
+                    .conteiner-produto{
+
+                        width: 80vw;
+                        margin: 10%;
+
+                    }
+
+                    .pagar{
+
+                        width: 80vw;
+                        margin: 10% 10%; 
+                    }
+
+                    .avaliacao{
+
+                        display: flex;
+                        flex-direction: column; 
+                    }
+
+                    .comentarios{
+                        width: 80vw;
+                        margin: 10% 10% 10% 3%;
+
+                    }
+
+                    .texto-comentarios{
+
+                        width: 100%;
+                    }
+                    
+                    .info-vendedor{
+                        width: 80vw;
+                        margin: 10%;
+
+
+                    }
+                }
+    
+    }
