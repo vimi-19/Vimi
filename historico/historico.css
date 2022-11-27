@@ -1,0 +1,549 @@
+html {
+
+    font-size: 10px;
+
+}
+
+* {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.ali{
+
+    display: flex;
+    margin-left: .5%;
+    margin-bottom: 10%;
+
+}
+
+/*---------------------------header-pc-------------------------------*/
+header {
+
+
+    background-color: #f5f5f5;
+}
+
+.header-pc {
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-pc nav a {
+
+    text-decoration: none;
+    color: #6A6A7C;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+
+nav a:hover {
+
+    text-decoration: underline 3px #7469AB;
+
+}
+
+
+.logo {
+
+    height: 70%;
+
+}
+
+#texto {
+
+    outline: 0;
+    background: none;
+    border-style: none;
+    position: relative;
+    top: 3px;
+    left: 30px;
+    width: 80%;
+    
+}
+
+.input-conteiner {
+
+    background-color: #D6D6D6;
+    border-radius: 20px;
+    height: 3rem;
+    width: 30rem;
+   
+}
+
+.conteiner-bt {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.conteiner-bt  img{
+
+    
+    width: 30px;
+    
+
+}
+
+.conteiner-bt  a{
+
+    
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+
+}
+
+.per{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*-------------------------------header-mobile-------------------------------------*/
+
+
+.header-mobile {
+
+    display: flex;
+    flex-direction: column;
+
+    display: none;
+
+}
+/*-------------------------------main-------------------------------------*/
+
+main{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    margin-left: 2%;
+    
+    
+}
+
+
+
+.conteiner-historico{
+
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.titulo{
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 3%;
+
+}
+
+.row{
+    
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.mg-b{
+
+    margin-bottom: 5%;
+
+}
+
+.mg-t{
+
+    margin-top:2%;
+}
+
+.conteiner{
+
+    display: flex;
+    height: 40vh;
+    width: 70vw;
+}
+
+
+/*-------------------------------parte1-------------------------------------*/
+.parte1{
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid #d9d9d9;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-radius: 20px 0 0 20px;
+}
+
+.pruduto{
+
+    width: 40%;
+    height: 90%;
+    
+    border-radius: 20px;
+    margin-left: 5%;
+
+}
+
+.img-1{
+    background-image: url(vaca.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img-2{
+    background-image: url(elefante.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.informacoes{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+   
+}
+
+.nome-produto{
+
+    font-weight: 500;
+font-size: 2.4rem;
+
+
+}
+
+.preco{
+
+    font-weight: 500;
+font-size: 3rem;
+}
+
+.rastrear{
+    font-size: 1.5rem;
+    width: 100%;
+    border:0;
+    height: 25%;
+    background: rgba(116, 105, 171, 0.2);
+border-radius: 20px;
+cursor: pointer;
+}
+
+.informacoes{
+
+    display: flex;
+    flex-direction: column; 
+  
+}
+/*-------------------------------parte2-------------------------------------*/
+
+.parte2{
+    width: 25%;
+    height: 100%;
+    font-weight: 400;
+font-size: 1.3rem;
+color:#6A6A7C;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+.linha{
+
+    height: 90%;
+    width: 1px;
+    background-color: #d9d9d9;
+   margin:0 10%;
+
+
+}
+
+.nome-loja{
+
+    font-weight: 600;
+font-size: 1.5rem;
+margin-top: 10%;
+}
+
+/*-------------------------------parte3-------------------------------------*/
+.parte3{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    background-color: #7469AB;
+}
+
+.botao-histo{
+    font-size: 1.5rem;
+    border:0;
+    outline: 0;
+    width: 80%;
+    height: 15%;
+    background: #F5F5F5;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+/*-------------------------------aside-------------------------------------*/
+
+aside{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 98vh;
+    background-color: #d9d9d9;
+    
+    border-radius: 20px;
+    margin-left: 3%;
+    font-size: 2rem;
+    
+    
+}
+
+/*-------------------------------@media-------------------------------------*/
+
+
+
+@media (min-width:768px) and (max-width:1045px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .header-pc nav a {
+        margin-left: 1px;
+
+    }
+}
+
+@media (min-width:763px) and (max-width:823px) {
+
+
+
+    .input-conteiner {
+
+
+        width: 20rem;
+    }
+
+}
+
+@media (max-width:767px) {
+
+
+    html {
+
+        font-size: 40%;
+    }
+#texto{
+        overflow-y: hidden;
+    }
+
+    header {
+
+        padding-bottom: 10px;
+
+    }
+
+    .header-pc {
+
+        display: none;
+    }
+
+    .header-mobile {
+
+        display: block;
+    }
+
+    .row1 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo {
+
+        margin-top: 2%;
+        margin-left: 5%;
+        width: 150px;
+
+    }
+
+    .row2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+
+    #texto {
+
+        width: 80%;
+    }
+
+    .input-conteiner {
+
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .menu_icon_mobile {
+
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-right: 10%;
+
+    }
+
+    @media (max-width:528px) {
+
+        .header-pc {
+            display: none;
+        }
+
+
+    }
+
+
+    @media (max-width:496px){
+
+        .ali{
+
+            flex-direction: column;
+            width: 100vw;
+            margin-left: 3%;
+        }
+
+        main{
+
+            width: 100%;
+        }
+
+
+        .conteiner{
+
+            width: 90%;
+        }
+
+
+        aside{
+
+            margin-top: 10%;
+            width: 90%;
+            height: 50vh;
+
+
+        }
+
+    }
+
+}
+
+@media (max-width:374px){
+
+    .conteiner{
+
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titulo{
+
+        width: 100%;
+    }
+
+    .parte1, .parte2, .parte3{
+
+        width: 90%;
+
+
+    }
+
+    .parte1{
+
+        border-left: 2px solid #d9d9d9;
+        border-top: 2px solid #d9d9d9;
+        border-right: 2px solid #d9d9d9;
+        border-bottom: 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .informacoes{
+
+        overflow-y: hidden;
+
+    }
+
+    .pruduto{
+
+        width: 25%;
+    }
+
+    .parte2{
+        
+        border-top: 0;
+        border-left: 2px solid #d9d9d9;
+        border-right: 2px solid #d9d9d9;
+        border-bottom: 0;
+    }
+
+    .text{
+        display: flex;
+    }
+
+    .linha{
+
+        width: 0px;
+    }
+
+    .parte3{
+       border-radius: 0 0 20px 20px;
+        
+    }
+
+    .botao-histo{
+
+        width: 50%;
+    }
+
+}
