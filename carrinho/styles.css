@@ -23,17 +23,19 @@ html {
 
 /* HEADER*/
 header {
-    height: 74px;
-    margin-bottom: 25px;
 
+
+    background-color: #f5f5f5;
+}
+
+.header-pc {
+    height: 74px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f5f5f5;
-
 }
 
-header nav a {
+.header-pc nav a {
 
     text-decoration: none;
     color: #6A6A7C;
@@ -49,121 +51,103 @@ nav a:hover {
 
 }
 
-nav {
-
-    margin-top: 30px;
-
-}
-
-div button {
-
-    margin-right: 20px;
-}
 
 .logo {
-
-    width: 118.5px;
-    height: 45.66px;
-
-    font-weight: 700;
-    font-size: 3rem;
-
+    width: 131px;
+    height: 52.66px;
 }
 
-input {
+#texto {
 
     outline: 0;
     background: none;
     border-style: none;
     position: relative;
     top: 3px;
-    left: 25px;
-}
+    left: 30px;
+    width: 80%;
 
-label {
-    position: relative;
-    top: 20%;
-    left: 5%;
 }
 
 .input-conteiner {
 
     background-color: #D6D6D6;
     border-radius: 20px;
-    margin-top: 27px;
     height: 3rem;
     width: 30rem;
+
 }
 
-
-#b1 {
-    width: 134px;
-    height: 38px;
-
-    padding: 6px 29px 6px 29px;
-    border-radius: 30px;
-
-    border-style: none;
-
-
-    color: #252525;
-
-    background: rgba(231, 119, 142, 0.5);
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-
-    cursor: pointer;
+.conteiner-bt {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
-#bt {
+.conteiner-bt img {
 
-    margin-top: 26px;
+
+    width: 30px;
 
 
 }
 
-#b2 {
-    width: 150px;
-    height: 38px;
+.conteiner-bt a {
 
-    padding: 6px 29px 6px 29px;
-    background: rgba(116, 105, 171, 0.5);
 
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
 
-    border-style: none;
 }
 
-.menu_icon_mobile {
+.per {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*-------------------------------header-mobile-------------------------------------*/
+
+
+.header-mobile {
+
+    display: flex;
+    flex-direction: column;
+
     display: none;
+
 }
 
-/* HEADER*/
+/*-------------------------------@media-------------------------------------*/
 @media (min-width:768px) and (max-width:1045px) {
 
     html {
         font-size: 50%;
     }
 
-    header nav a {
-        margin-left: 4px;
+    .header-pc nav a {
+        margin-left: 1px;
 
     }
-
-    .conteiner {
-        width: 350px;
-    }
-
-
-
-
-
 }
 
-/* HEADER*/
+@media (min-width:763px) and (max-width:803px) {
+
+
+
+    .input-conteiner {
+
+
+        width: 20rem;
+    }
+
+}
 
 @media (max-width:767px) {
 
@@ -173,53 +157,72 @@ label {
         font-size: 40%;
     }
 
-    #nav_links {
+    header {
+
+        padding-bottom: 10px;
+
+    }
+
+    .header-pc {
+
         display: none;
     }
 
-    #bt {
-        display: none;
-    }
-
-
-    .menu_icon_mobile {
+    .header-mobile {
 
         display: block;
+    }
+
+    .row1 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
     }
 
-    .menu_icon_mobile button {
+    .logo {
+
+        margin-top: 2%;
+        margin-left: 5%;
+        width: 150px;
+
+    }
+
+    .row2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+
+    #texto {
+
+        width: 80%;
+    }
+
+    .input-conteiner {
+
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .menu_icon_mobile {
 
         background-color: gray;
         border: none;
         border-radius: 5px;
         margin-top: 20px;
-        margin-left: 70%;
-
-
+        margin-right: 10%;
 
     }
 
+    @media (max-width:528px) {
 
-
-    main {
-
-        margin-top: 40%;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .conteiner {
-        margin-top: 20%;
-        margin-left: 60%;
-        width: 300px;
-    }
-
-    .conteiner button {
-        width: 190px;
-        height: 42px;
-
+        .header-pc {
+            display: none;
+        }
     }
 
 }
@@ -240,7 +243,12 @@ label {
 
 }
 
+input {
+    margin-left: 7%;
+}
+
 .titulo {
+    margin-top: 2%;
     margin-left: 7%;
     padding-bottom: 2%;
 
@@ -300,7 +308,9 @@ label {
 }
 
 .select {
-    margin-top: 22px;
+    margin-left: 3%;
+    margin-right: -3%;
+    margin-top: 11px;
 
     width: 30px;
     height: 30px;
@@ -478,7 +488,7 @@ label {
 }
 
 #b3 {
-    margin-top: 32px;
+    margin-top: 54px;
     margin-left: 75px;
 
     width: 150px;

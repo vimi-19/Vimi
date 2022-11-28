@@ -3,8 +3,8 @@ var corpo = document.getElementById('corpo');
 
 
 
-var login = 
-`
+var login =
+    `
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,9 +28,9 @@ var login =
             <span class="email">Nome</span>
             <input class="input_text"></input>
             <span class="senha">Senha</span>
-            <input class="input_text" type="senha"></input>
+            <input class="input_text" type="password"></input>
 
-                <span class="continuar">Entrar</span>
+            <a class="continuar" href="../Home Marketplace/marketplace.html"><div class="">Entrar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
                     <img src="./images/icon1.png" alt="">
@@ -38,7 +38,7 @@ var login =
                 </div>
 
                 <p id="frase">Esqueceu a sua senha?</p>
-                <span class="continuar">Recuperar Senha</span>
+                <a class="continuar" href="../recuperacaVimi/index.html"><span>Recuperar Senha</span></a>
             </div>
         </div>
         <div class="painter">
@@ -58,8 +58,8 @@ var login =
 
 
 
-var cadastro = 
-`
+var cadastro =
+    `
 
 
 <head>
@@ -84,9 +84,9 @@ var cadastro =
             <span class="email">Email</span>
             <input class="input_text"></input>
             <span class="senha">Senha</span>
-            <input class="input_text" type="senha"></input>
+            <input class="input_text" type="password"></input>
 
-                <span class="continuar">Continuar</span>
+            <a class="continuar" href="../Home Marketplace/marketplace.html"><div class="">Continuar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
                     <img src="./images/icon1.png" alt="">
@@ -110,8 +110,8 @@ var cadastro =
 
 
 
-function trocar_pagina(paremetro){
+function trocar_pagina(paremetro) {
 
-corpo.innerHTML = paremetro;
+    corpo.innerHTML = paremetro;
 
 }

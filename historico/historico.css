@@ -4,6 +4,8 @@ html {
 
 }
 
+
+
 * {
 
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +16,7 @@ html {
 
 }
 
-.ali{
+.ali {
 
     display: flex;
     margin-left: .5%;
@@ -68,7 +70,7 @@ nav a:hover {
     top: 3px;
     left: 30px;
     width: 80%;
-    
+
 }
 
 .input-conteiner {
@@ -77,7 +79,7 @@ nav a:hover {
     border-radius: 20px;
     height: 3rem;
     width: 30rem;
-   
+
 }
 
 .conteiner-bt {
@@ -85,28 +87,28 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
-.conteiner-bt  img{
+.conteiner-bt img {
 
-    
+
     width: 30px;
-    
+
 
 }
 
-.conteiner-bt  a{
+.conteiner-bt a {
 
-    
+
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 1.2rem;
 
 }
 
-.per{
+.per {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,27 +127,28 @@ nav a:hover {
     display: none;
 
 }
+
 /*-------------------------------main-------------------------------------*/
 
-main{
+main {
     width: 70vw;
     height: 100%;
     display: flex;
     margin-left: 2%;
-    
-    
+
+
 }
 
 
 
-.conteiner-historico{
+.conteiner-historico {
 
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
 }
 
-.titulo{
+.titulo {
     width: 70vw;
     height: 15vh;
     display: flex;
@@ -155,23 +158,23 @@ main{
 
 }
 
-.row{
-    
+.row {
+
     border-bottom: 2px solid #d9d9d9;
 }
 
-.mg-b{
+.mg-b {
 
     margin-bottom: 5%;
 
 }
 
-.mg-t{
+.mg-t {
 
-    margin-top:2%;
+    margin-top: 2%;
 }
 
-.conteiner{
+.conteiner {
 
     display: flex;
     height: 40vh;
@@ -180,7 +183,7 @@ main{
 
 
 /*-------------------------------parte1-------------------------------------*/
-.parte1{
+.parte1 {
 
     display: flex;
     align-items: center;
@@ -192,77 +195,79 @@ main{
     border-radius: 20px 0 0 20px;
 }
 
-.pruduto{
+.pruduto {
 
     width: 40%;
     height: 90%;
-    
+
     border-radius: 20px;
     margin-left: 5%;
 
 }
 
-.img-1{
+.img-1 {
     background-image: url(vaca.png);
     background-position: center;
     background-size: cover;
 
 }
 
-.img-2{
+.img-2 {
     background-image: url(elefante.png);
     background-position: center;
     background-size: cover;
 
 }
-.informacoes{
+
+.informacoes {
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 5%;
-   
+
 }
 
-.nome-produto{
+.nome-produto {
 
     font-weight: 500;
-font-size: 2.4rem;
+    font-size: 2.4rem;
 
 
 }
 
-.preco{
+.preco {
 
     font-weight: 500;
-font-size: 3rem;
+    font-size: 3rem;
 }
 
-.rastrear{
+.rastrear {
     font-size: 1.5rem;
     width: 100%;
-    border:0;
+    border: 0;
     height: 25%;
     background: rgba(116, 105, 171, 0.2);
-border-radius: 20px;
-cursor: pointer;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-.informacoes{
+.informacoes {
 
     display: flex;
-    flex-direction: column; 
-  
+    flex-direction: column;
+
 }
+
 /*-------------------------------parte2-------------------------------------*/
 
-.parte2{
+.parte2 {
     width: 25%;
     height: 100%;
     font-weight: 400;
-font-size: 1.3rem;
-color:#6A6A7C;
-display: flex;
+    font-size: 1.3rem;
+    color: #6A6A7C;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -271,28 +276,28 @@ display: flex;
 
 }
 
-.linha{
+.linha {
 
     height: 90%;
     width: 1px;
     background-color: #d9d9d9;
-   margin:0 10%;
+    margin: 0 10%;
 
 
 }
 
-.nome-loja{
+.nome-loja {
 
     font-weight: 600;
-font-size: 1.5rem;
-margin-top: 10%;
+    font-size: 1.5rem;
+    margin-top: 10%;
 }
 
 /*-------------------------------parte3-------------------------------------*/
-.parte3{
+.parte3 {
     width: 25%;
     height: 100%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -301,12 +306,33 @@ margin-top: 10%;
     background-color: #7469AB;
 }
 
-.botao-histo{
-    font-size: 1.5rem;
-    border:0;
+.botao-href {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
     outline: 0;
     width: 80%;
     height: 15%;
+    background: #F5F5F5;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botao-histo {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    border: 0;
+    outline: 0;
+    width: 80%;
     background: #F5F5F5;
     border-radius: 20px;
     cursor: pointer;
@@ -315,19 +341,19 @@ margin-top: 10%;
 
 /*-------------------------------aside-------------------------------------*/
 
-aside{
-    display:flex;
+aside {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 23vw;
     height: 98vh;
     background-color: #d9d9d9;
-    
+
     border-radius: 20px;
     margin-left: 3%;
     font-size: 2rem;
-    
-    
+
+
 }
 
 /*-------------------------------@media-------------------------------------*/
@@ -365,7 +391,8 @@ aside{
 
         font-size: 40%;
     }
-#texto{
+
+    #texto {
         overflow-y: hidden;
     }
 
@@ -440,28 +467,28 @@ aside{
     }
 
 
-    @media (max-width:496px){
+    @media (max-width:496px) {
 
-        .ali{
+        .ali {
 
             flex-direction: column;
             width: 100vw;
             margin-left: 3%;
         }
 
-        main{
+        main {
 
             width: 100%;
         }
 
 
-        .conteiner{
+        .conteiner {
 
             width: 90%;
         }
 
 
-        aside{
+        aside {
 
             margin-top: 10%;
             width: 90%;
@@ -474,9 +501,9 @@ aside{
 
 }
 
-@media (max-width:374px){
+@media (max-width:374px) {
 
-    .conteiner{
+    .conteiner {
 
 
 
@@ -487,19 +514,21 @@ aside{
 
     }
 
-    .titulo{
+    .titulo {
 
         width: 100%;
     }
 
-    .parte1, .parte2, .parte3{
+    .parte1,
+    .parte2,
+    .parte3 {
 
         width: 90%;
 
 
     }
 
-    .parte1{
+    .parte1 {
 
         border-left: 2px solid #d9d9d9;
         border-top: 2px solid #d9d9d9;
@@ -508,40 +537,40 @@ aside{
         border-radius: 20px 20px 0 0;
     }
 
-    .informacoes{
+    .informacoes {
 
         overflow-y: hidden;
 
     }
 
-    .pruduto{
+    .pruduto {
 
         width: 25%;
     }
 
-    .parte2{
-        
+    .parte2 {
+
         border-top: 0;
         border-left: 2px solid #d9d9d9;
         border-right: 2px solid #d9d9d9;
         border-bottom: 0;
     }
 
-    .text{
+    .text {
         display: flex;
     }
 
-    .linha{
+    .linha {
 
         width: 0px;
     }
 
-    .parte3{
-       border-radius: 0 0 20px 20px;
-        
+    .parte3 {
+        border-radius: 0 0 20px 20px;
+
     }
 
-    .botao-histo{
+    .botao-histo {
 
         width: 50%;
     }

@@ -25,8 +25,17 @@ body {
     align-items: center;
 }
 
+.input_text {
+    padding-right: 58%;
+    margin-top: 8%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 24px;
+    color: #161515;
+}
 
-.entrar{
+.entrar {
     border-width: 0px 0px 3px 0px;
     border-style: solid;
 
@@ -99,10 +108,9 @@ body {
 }
 
 
-#frase{
+#frase {
 
     font-size: 15px;
     font-weight: 600;
 
 }
-

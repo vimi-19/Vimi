@@ -12,23 +12,59 @@
 
 <body>
     <header>
-        <img class="logo" src="./images/logo.png">
-        <nav id="nav_links">
-            <a href="#">Home</a>
-            <a href="#">Lojas</a>
-            <a href="#">Eventos</a>
-            <a href="#">Educação</a>
-        </nav>
-        <div class="input-conteiner">
 
-            <input type="text" id="texto">
+        <!-------------------------header-px---------------------------------->
+    
+        <div class="header-pc">
+    
+            <img class="logo" src="./images/logo.png" alt="">
+    
+            <nav class="nav_links">
+                <a href="../home/home.html">Home</a>
+                <a href="../Home Marketplace/marketplace.html">Lojas</a>
+                <a href="#">Eventos</a>
+                <a href="#">Educação</a>
+            </nav>
+            <div class="input-conteiner">
+    
+                <input type="text" id="texto">
+            </div>
+    
+    
+            <div class='conteiner-bt'>
+    
+                <div class="per">
+                    <a href="../Perfil/perfil.html">Ver Perfil</a>
+                    <img src="perfil.png" alt="">
+                </div>
+    
+                <a href="../historico/index.html">Seus Pedidos</a>
+                <img src="carrinho.png" alt="">
+    
+    
+            </div>
+    
         </div>
-        <div id='bt'>
-            <button id="b1">Ver Perfil</button>
-            <button id="b2">Seus Pedidos</button>
+        <!-------------------------header-mobile---------------------------------->
+        <div class="header-mobile">
+    
+    
+            <div class="row1">
+    
+                <img class="logo" src="image.png" alt="">
+    
+                <button class="menu_icon_mobile"><img src="../imagem/menu_white_36dp.svg" alt=""></button>
+            </div>
+    
+    
+            <div class="row2">
+    
+                <div class="input-conteiner">
+                    <input class="pesquisa" type="text" id="texto">
+                </div>
+            </div>
         </div>
-        <div class="menu_icon_mobile">
-            <button><img src="./images/menu_white_36dp.svg" alt=""></button>
+    
         </div>
     </header>
     <div class="titulo">Carrinho de compras</div>
@@ -40,7 +76,7 @@
             </div>
             <div class="container_itens">
                 <div class="itens">
-                    <div><input type="checkbox" class="select"></div>
+                    <div class="select"><input type="checkbox" class="select"></div>
                     <img class="item_foto" src="./images/estojo.jfif" alt="">
                     <div class="item_info">
                         <span class="item_name">Pijamija Infantil</span>
@@ -58,7 +94,7 @@
 
                 </div>
                 <div class="itens">
-                    <div><input type="checkbox" class="select"></div>
+                    <div class="select"><input type="checkbox" class="select"></div>
                     <img class="item_foto" src="./images/bolsa.jfif" alt="">
                     <div class="item_info">
                         <span class="item_name">Pijamija Infantil</span>
@@ -76,7 +112,7 @@
 
                 </div>
                 <div class="itens">
-                    <div><input type="checkbox" class="select"></div>
+                    <div class="select"><input type="checkbox" class="select"></div>
                     <img class="item_foto" src="./images/girafinha.jpg" alt="">
                     <div class="item_info">
                         <span class="item_name">Pijamija Infantil</span>
@@ -94,7 +130,7 @@
 
                 </div>
                 <div class="itens">
-                    <div><input type="checkbox" class="select"></div>
+                    <div class="select"><input type="checkbox" class="select"></div>
                     <img class="item_foto" src="./images/crianca.jpg" alt="">
                     <div class="item_info">
                         <span class="item_name">Pijamija Infantil</span>
@@ -177,15 +213,15 @@
                     <button id="bcontinuar">Continuar comprando</button>
                 </div>
             </div>
-            
+
             <div class="cupom">
                 <div class="frete_cep">
                     <span class="calc_frete">Cupom de desconto</span>
                     <input class="input_cep" placeholder="Insira o seu cupom" type="text">
-                    
+
                 </div>
                 <button id="aplicar_cupom">Aplicar</button>
-                
+
             </div>
 
         </div>
