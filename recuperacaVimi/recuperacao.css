@@ -34,10 +34,11 @@ header{
     
 }
 
-.logo{
+.logo {
+    width: 118.5px;
+    height: 45.66px;
 
-    font-size: 3rem;
-    font-weight: 700;
+    cursor: pointer;
 }
 .conta{
     display: flex;

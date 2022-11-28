@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="postagem.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-------------------------header-px---------------------------------->
+
+        <div class="header-pc">
+
+            <span><img class="logo" src="../Home Marketplace/images/logo.png" alt=""></span>
+
+            <nav class="nav_links">
+                <a href="../../home/home.html">Home</a>
+                <a href="../../Home Marketplace/marketplace.html">Lojas</a>
+                <a href="#">Eventos</a>
+                <a href="#">Educação</a>
+            </nav>
+            <div class="input-conteiner">
+
+                <input type="text" id="texto">
+            </div>
+
+
+            <div class='conteiner-bt'>
+
+                <div class="per">
+                    <a href="../Perfil/perfil.html">Ver Perfil</a>
+                    <img src="perfil.png" alt="">
+                </div>
+
+                <a href="../historico/index.html">Seus Pedidos</a>
+                <img src="carrinho.png" alt="">
+
+
+            </div>
+
+        </div>
+        <!-------------------------header-mobile---------------------------------->
+        <div class="header-mobile">
+
+
+            <div class="row1">
+
+                <img class="logo" src="image.png" alt="">
+
+                <button class="menu_icon_mobile"><img src="../imagem/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+
+            <div class="row2">
+
+                <div class="input-conteiner">
+                    <input class="pesquisa" type="text" id="texto">
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <!---------------container------------------>
+
+    <div class="container">
+        <h3>Adicione algumas informações sobre o produto</h3>
+        <span class="steps">Passo 1</span><br>
+        <div class="caixa">
+            <form id="categorias">
+
+                <label class='info' for="name">Informe a categoria do seu produto:</label><br><br>
+                <select id="name" name="categorias" form="categorias">
+                    <option value="ceramica">Selecione</option>
+                    <option value="ceramica">Cerâmica</option>
+                    <option value="croche">Crochê</option>
+                    <option value="amigurumi">Amigurumi</option>
+                    <option value="bordado">Bordado</option>
+                    <option value="pintura">Pintura</option>
+                    <option value="costura">Costura</option>
+                    <option value="trico">Tricô</option>
+                    <option value="cosmeticos">Cosméticos</option>
+                    <option value="velas">Velas</option>
+                    <option value="mandala">Mandala</option>
+                    <option value="patchwork">Patchwork</option>
+                    <option value="tear">Tear</option>
+                    <option value="eva">EVA</option>
+                    <option value="feltro">Feltro</option>
+                    <option value="escultura">Escultura</option>
+                    <option value="madeira">Madeira</option>
+                    <option value="couro">Couro</option>
+                    <option value="cestaria">Cestaria</option>
+                    <option value="vime">Vime</option>
+                    <option value="cartonagem">Cartonagem</option>
+                    <option value="biscuit">Biscuit</option>
+                    <option value="reciclados">Reciclados</option>
+                </select>
+            </form>
+        </div>
+        <!--caixa-->
+        <span class="steps">Passo 2</span><br>
+        <div class="caixa">
+            <form>
+
+                <label class='info' for="name">Qual o formato da venda?</label><br><br>
+                <div class="in">
+                    <input type="radio" id="pronta" name="entrega" value="Pronta">
+                    <label for="pronta">Pronta-entrega</label><br>
+                </div>
+                <div class="in">
+                    <input type="radio" id="encomenda" name="entrega" value="Encomenda">
+                    <label for="encomenda">Encomenda</label><br>
+                </div>
+                <div class="in">
+                    <input type="radio" id="both" name="entrega" value="Both">
+                    <label for="both">Os dois</label><br>
+                </div>
+            </form>
+        </div>
+        <!--caixa-->
+
+        <span class="steps">Passo 3</span><br>
+        <div class="caixa">
+            <form>
+                <label class="info" for="retira">Qual o formato da entrega?</label><br><br>
+                <div class="in">
+                    <input type="radio" id="retira" name="entrega" value="retira">
+                    <label for="pronta">Retira Vimi</label><br><br>
+                </div>
+                <div class="in">
+                    <input type="radio" id="correio" name="entrega2" value="correio">
+                    <label for="correio">Correios</label><br><br>
+                </div>
+            </form>
+        </div>
+        <!--caixa-->
+
+        <a href="pagina2.html">
+            <div class="caixa2">
+                Próxima Etapa
+            </div>
+        </a>
+    </div>
+    <!--container--
+</body>
+</html>
