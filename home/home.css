@@ -1,6 +1,4 @@
-/*---------------------------header-pc-------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 html {
 
@@ -17,6 +15,14 @@ html {
 
 }
 
+.logo {
+    width: 118.5px;
+    height: 45.66px;
+
+    cursor: pointer;
+}
+
+/* HEADER*/
 header {
 
 
@@ -48,8 +54,9 @@ nav a:hover {
 
 
 .logo {
-    width: 131px;
-    height: 52.66px;
+
+    height: 70%;
+
 }
 
 #texto {
@@ -222,113 +229,167 @@ nav a:hover {
 
 }
 
-/*------------------------Pedidos-----------------------*/
 
-h3 {
-    margin-left: 6%;
-    margin-top: 3%;
-    font-size: 20px;
-    color: #252525;
+/*------------------------------------------------------------------------------------------*/
+body {
+
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 220vh;
+
+
+
 }
 
-.pedidos {
-    margin-left: 6%;
-    margin-top: 25px;
-    width: 920px;
-    border-top: 0.5px solid #7469AB;
-}
+main {
 
-.detalhes {
-    width: 100%;
-    height: 200px;
-    border: 0.5px solid #7469AB;
-    border-radius: 20px;
-    margin-top: 4%;
+    margin-top: 10%;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.detalhes img {
-    width: 160px;
-    height: 160px;
-    margin-left: 3%;
-    border-radius: 10px;
-    object-fit: cover;
+main h1 {
+
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: white;
+    margin-top: 10%;
 }
 
-.detalhe-item {
+main p {
+
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+
+
+main p span {
+
+    color: #7469AB;
+
+}
+
+.conteiner {
+
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
-}
-
-span.nome {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-span.valor {
-    font-size: 30px;
-    color: #252525;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.button-rastreio {
-    width: 200px;
-    height: 30px;
-    background-color: #7469ab33;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    justify-content: space-around;
+    width: 256px;
+    height: 309px;
+    background-color: #f5f5f5;
+    padding: 12%;
+    border-radius: 30px;
+}
+
+.conteiner button {
+
+    width: 276px;
+    height: 42px;
+    padding: 10px;
+    background-color: #252525;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.8rem;
     cursor: pointer;
+    margin-top: 20px;
 }
 
-p.button-rastreio {
-    font-size: 15px;
-    font-weight: 500;
-    color: #7469AB;
+/*--------------------------------------------*/
+.menu_icon_mobile {
+
+    display: none;
+
 }
 
-.button-rastreio:hover {
-    background-color: #7469AB;
-    transition: 0.5s;
-    color: #f5f5f5;
+.menu_mobile {
+    display: none;
 }
 
-/*----------infos--------------*/
+/*--------------------------------------------*/
 
-.infos {
-    border-left: 1px solid #7469AB;
-    height: 80%;
-    width: 22%;
-    margin-left: 3%;
-    font-size: 13px;
+@media (min-width:768px) and (max-width:1045px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    header nav a {
+        margin-left: 0px;
+
+    }
+
+    .conteiner {
+        width: 350px;
+    }
+
+
+
+
+
 }
 
-.infos p {
-    margin-top: 4%;
-    margin-left: 4%;
-    color: #6A6A7C;
-}
+@media (max-width:767px) {
 
-p.loja {
-    font-weight: 600;
-    color: #7469AB;
-}
 
-.buttons p {
-    width: 150px;
-    background-color: #7469AB;
-    height: 30px;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f5f5f5;
-    font-weight: 500;
-    margin-bottom: 10px;
-    margin-left: 7%;
+    html {
+
+        font-size: 40%;
+    }
+
+    #nav_links {
+        display: none;
+    }
+
+    #bt {
+        display: none;
+    }
+
+
+    .menu_icon_mobile {
+
+        display: block;
+
+    }
+
+    .menu_icon_mobile button {
+
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 70%;
+
+
+
+    }
+
+    .input-conteiner {
+
+        margin-left: 10%;
+    }
+
+    main {
+
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .conteiner {
+        margin-top: 20%;
+        margin-left: 60%;
+        width: 300px;
+    }
+
+    .conteiner button {
+        width: 190px;
+        height: 42px;
+
+    }
+
 }

@@ -4,7 +4,9 @@ html {
 
     font-size: 62.5%;
 }
-
+a{
+    text-decoration: none;
+}
 * {
     padding: 0;
     margin: 0;
@@ -67,6 +69,7 @@ nav a:hover {
     top: 3px;
     left: 30px;
     width: 80%;
+    
 }
 
 .input-conteiner {
@@ -75,39 +78,46 @@ nav a:hover {
     border-radius: 20px;
     height: 3rem;
     width: 30rem;
+   
 }
 
-.bt {
-
+.conteiner-bt {
+    width: 25%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
 }
 
-.botao {
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-    padding: 6px 29px 6px 29px;
-    border-radius: 30px;
-    border-style: none;
-    cursor: pointer;
+.conteiner-bt  img{
 
-    color: white;
-    margin-right: 20px;
+    
+    width: 30px;
+    
 
 }
 
+.conteiner-bt  a{
 
-#b1 {
-    background-color: #7469AB;
-
-}
-
-#b2 {
-    background-color: #252525;
+    
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
 
 }
+
+.per{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*-------------------------------header-mobile-------------------------------------*/
+
+
 .header-mobile {
 
     display: flex;
@@ -428,6 +438,7 @@ nav a:hover {
 
 
 .titulo {
+    margin-top: 5%;
     margin-left: 0%;
     margin-bottom: 2%;
 
