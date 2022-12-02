@@ -254,7 +254,6 @@ nav a:hover {
     padding-left: 3%;
     padding-right: 3%;
 
-    height: 100vh;
     background: #AEA7D1;
 }
 
@@ -507,6 +506,20 @@ nav a:hover {
 }
 
 @media (max-width: 1629px) {
+    .body {
+        display: flex;
+        width: 100vw;
+
+        flex-direction: row;
+        overflow-y:scroll;
+        overflow-x: auto;
+    }
+
+    body {
+        overflow-y:scroll;
+        overflow-x: auto;
+    }
+
     .post_favorito {
         display: block;
         object-fit: cover;
@@ -519,6 +532,17 @@ nav a:hover {
 }
 
 @media (max-width: 1440px) {
+    .body {
+        display: flex;
+        width: 100vw;
+
+        flex-direction: row;
+        overflow-y:scroll;
+    }
+
+    body {
+        overflow-y:scroll;
+    }
 
 
     .right_side {
@@ -623,7 +647,7 @@ nav a:hover {
 
 @media (max-width: 768px) {
     body {
-        overflow-y:auto;
+        overflow-y: auto;
         overflow-x: auto;
     }
 
@@ -654,7 +678,7 @@ nav a:hover {
 
 @media (max-height: 849px) {
     .container_branco {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
 
@@ -668,7 +692,7 @@ nav a:hover {
 @media (max-height: 746px) {
 
     .container_branco {
-        margin-top: 120px;
+        margin-top: 30px;
         height: 640px;
     }
 
