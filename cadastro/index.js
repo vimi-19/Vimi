@@ -17,7 +17,7 @@ var login =
 
 
 <body id="corpo">
-    <span class="vimi_name">Vimi</span>
+    <span class="vimi_name"><img class="logo" src="cadastro/images/logo.png" alt=""></span>
     <div class="body">
         <div class="container_blur">
             <span class="container_login_signin">
@@ -73,7 +73,7 @@ var cadastro =
 
 
 <body id="corpo">
-    <span class="vimi_name">Vimi</span>
+    <span class="vimi_name"><img class="logo" src="cadastro/images/logo.png" alt=""></span>
     <div class="body">
         <div class="container_blur">
             <span class="container_login_signin">
