@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marketplace.css">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/93f27f1b5d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+
+        <!-------------------------header-px---------------------------------->
+    
+        <div class="header-pc">
+    
+            <span><img class="logo" src="./images/logo.png" alt=""></span>
+    
+            <nav class="nav_links">
+                <a href="../home/home.html">Home</a>
+                <a href="../Home Marketplace/marketplace.html">Lojas</a>
+                <a href="#">Eventos</a>
+                <a href="#">Educação</a>
+            </nav>
+            <div class="input-conteiner">
+    
+                <input type="text" id="texto">
+            </div>
+    
+    
+            <div class='conteiner-bt'>
+    
+                <div class="per">
+                    <a href="../Perfil/perfil.html">Ver Perfil</a>
+                    <img src="perfil.png" alt="">
+                </div>
+    
+                <a href="../historico/index.html">Seus Pedidos</a>
+                <img src="carrinho.png" alt="">
+    
+    
+            </div>
+    
+        </div>
+        <!-------------------------header-mobile---------------------------------->
+        <div class="header-mobile">
+    
+    
+            <div class="row1">
+    
+                <img class="logo" src="image.png" alt="">
+    
+                <button class="menu_icon_mobile"><img src="../imagem/menu_white_36dp.svg" alt=""></button>
+            </div>
+    
+    
+            <div class="row2">
+    
+                <div class="input-conteiner">
+                    <input class="pesquisa" type="text" id="texto">
+                </div>
+            </div>
+        </div>
+    
+        </div>
+    </header>
+
+    <section class="categorias">
+        <div class="itens">
+            <img src="./images/vase (1).png" />
+            <p>Cerâmica</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/knitting-needles.png" />
+            <p>Crochê</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/bordado.png" />
+            <p>Bordado</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/pintura.png" />
+            <p>Pintura</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/maquina-de-costura.png" />
+            <p>Costura</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/trico (1).png" />
+            <p>Trico</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/cosmeticos.png" />
+            <p>Cosméticos</p>
+        </div>
+
+        <div class="itens">
+            <img src="./images/Vela (3).png" />
+            <p>Velas</p>
+        </div>
+
+    </section>
+
+    <h3>Destaques da Semana</h3>
+
+    <div class="destaques">
+        <div class="post">
+            <img src="./images/bolsaminnie.jfif" alt="">
+            <div class="heart">
+                <span style="color: rgb(255, 255, 255);">
+                    <i onclick="like(this)" class="fa-regular fa-heart fa-3x ">
+                    </i>
+                </span>
+            </div>
+
+            <div class="profile">
+                <img src="./images/dani.jpg" alt="">
+                <span>danymulleratelier</span>
+            </div>
+
+            <div class="share">
+                <span style="color: rgb(255, 255, 255);">
+                    <i onclick="like(this)" class="fa-solid fa-share fa-3x"></i>
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="post">
+            <img src="../Home Marketplace/images/bolsa.jfif" />
+            <div class="profile">
+                <img src="../Home Marketplace/images/diva-perfil.jpg" alt="">
+                <span>@artesanatos.diva</span>
+            </div>
+            <div class="heart">
+                <span style="color: rgb(255, 255, 255);">
+                    <i onclick="like(this)" class="fa-regular fa-heart fa-3x ">
+                    </i>
+                </span>
+            </div>
+            <div class="share">
+                <span style="color: rgb(255, 255, 255);">
+                    <i class="fa-solid fa-share fa-3x"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="../Home Marketplace/images/criança.jpg" />
+
+            <div class="profile">
+                <img src="../Home Marketplace/images/fatima.jpg" alt="">
+                <span>@ateliedatatinha_</span>
+            </div>
+
+            <div class="heart">
+                <span style="color: rgb(255, 255, 255);">
+                    <i onclick="like(this)" class="fa-regular fa-heart fa-3x ">
+                    </i>
+                </span>
+            </div>
+            <div class="share">
+                <span style="color: rgb(255, 255, 255);">
+                    <i class="fa-solid fa-share fa-3x"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="../Home Marketplace/images/estojo.jfif" />
+
+            <div class="profile">
+                <img src="../Home Marketplace/images/sibeli.jpg" alt="">
+                <span>@sibelicostura</span>
+            </div>
+
+            <div class="heart">
+                <span style="color: rgb(255, 255, 255);">
+                    <i onclick="like(this)" class="fa-regular fa-heart fa-3x ">
+                    </i>
+                </span>
+            </div>
+            <div class="share">
+                <span style="color: rgb(255, 255, 255);">
+                    <i class="fa-solid fa-share fa-3x"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <section class="novos-destaques">
+        <div class="back">
+            <div class="textos1fr">
+                <p class="branco"> CONHEÇA OS <br> PRODUTOS DOS <br></p>
+                <p class="amarelo">NOVOS USUÁRIOS <br></p>
+                <p class="branco">DA PLATAFORMA</p>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="post_favorito" src="./images/criança.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="post_favorito" src="./images/boneca-rtatelier.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide"><img class="post_favorito" src="./images/bolsa-diva.jfif" alt=""></div>
+                    <div class="swiper-slide"><img class="post_favorito" src="./images/bolsa-sibeli.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="ultima-section">
+        <div class="video">
+            <video class="video-style" src="./images/video.mp4"></video>
+        </div>
+
+        <div class="produtos">
+            <h4>Produtos</h4>
+
+            <div class="container">
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/bolsa-diva.jfif" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/diva-perfil.jpg" alt="">
+                            </div>
+                            <span>@artesanatos.diva</span>
+                        </div>
+                        <!--perfil-->
+
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/bolsa-sibeli.jpg" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/sibeli.jpg" alt="">
+                            </div>
+                            <span>@sibelicostura</span>
+                        </div>
+                        <!--perfil-->
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/urso.jfif" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/diva-perfil.jpg" alt="">
+                            </div>
+                            <span>@artesanatos.diva</span>
+                        </div>
+                        <!--perfil-->
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/naruto-rtatelier.jfif" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/rtatelier.jpg" alt="">
+                            </div>
+                            <span>@rtatelier_sp</span>
+                        </div>
+                        <!--perfil-->
+
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/boneca-rtatelier.jpg" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/rtatelier.jpg" alt="">
+                            </div>
+                            <span>@rtatelier_sp</span>
+                        </div>
+                        <!--perfil-->
+
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+
+                <div class="produto">
+                    <img src="../Home Marketplace/images/leo.jfif" class="img-product">
+
+                    <div class="heart">
+                        <span style="color: rgb(255, 255, 255);">
+                            <i onclick="like(this)" class="fa-regular fa-heart fa-2x ">
+                            </i>
+                        </span>
+                    </div>
+                    <!--heart-->
+                    <div class="hover-itens">
+                        <div class="perfil">
+                            <div class="perfil-img">
+                                <img src="/Home Marketplace/images/fatima.jpg" alt="">
+                            </div>
+                            <span>@ateliedatatinha_</span>
+                        </div>
+                        <!--perfil-->
+
+                        <div class="share">
+                            <span style="color: rgb(255, 255, 255);">
+                                <i class="fa-solid fa-share fa-2x"></i>
+                            </span>
+                        </div>
+                        <!--share-->
+                    </div>
+
+                </div>
+                <!--container-->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function like(x) {
+            x.classList.toggle("fa-solid")
+        }
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- carrosel JS -->
+    <script src="carrosel.js"></script>
+</body>
+
+</html>
