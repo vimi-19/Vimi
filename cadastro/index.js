@@ -10,7 +10,7 @@ var login =
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./cadastro/login.css">
     
 </head>
 
@@ -30,19 +30,19 @@ var login =
             <span class="senha">Senha</span>
             <input class="input_text" type="password"></input>
 
-            <a class="continuar" href="../Home Marketplace/marketplace.html"><div class="">Entrar</div></a>
+            <a class="continuar" href="./HomeMarketplace/marketplace.html"><div class="">Entrar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
-                    <img src="./images/icon1.png" alt="">
-                    <img src="./images/icon2.png" alt="">
+                    <img src="cadastro/images/icon1.png" alt="">
+                    <img src="cadastro/images/icon2.png" alt="">
                 </div>
 
                 <p id="frase">Esqueceu a sua senha?</p>
-                <a class="continuar" href="../recuperacaVimi/index.html"><span>Recuperar Senha</span></a>
+                <a class="continuar" href="./recuperacaVimi/index.html"><span>Recuperar Senha</span></a>
             </div>
         </div>
         <div class="painter">
-            <img src="./images/painter.png">
+            <img src="cadastro/images/painter.png">
         </div>
 
     </div>
@@ -67,8 +67,8 @@ var cadastro =
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="./cadastro/styles.css">
+    <script src="cadastro/index.js"></script>
 </head>
 
 
@@ -86,16 +86,16 @@ var cadastro =
             <span class="senha">Senha</span>
             <input class="input_text" type="password"></input>
 
-            <a class="continuar" href="../Home Marketplace/marketplace.html"><div class="">Continuar</div></a>
+            <a class="continuar" href="./HomeMarketplace/marketplace.html"><div class="">Continuar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
-                    <img src="./images/icon1.png" alt="">
-                    <img src="./images/icon2.png" alt="">
+                    <img src="cadastro/images/icon1.png" alt="">
+                    <img src="cadastro/images/icon2.png" alt="">
                 </div>
             </div>
         </div>
         <div class="painter">
-            <img src="./images/painter.png">
+            <img src="cadastro/images/painter.png">
         </div>
 
     </div>
