@@ -30,7 +30,7 @@ var login =
             <span class="senha">Senha</span>
             <input class="input_text" type="password"></input>
 
-            <a class="continuar" href="./HomeMarketplace/marketplace.html"><div class="">Entrar</div></a>
+            <a class="continuar" href="./Home Marketplace/marketplace.html"><div class="">Entrar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
                     <img src="cadastro/images/icon1.png" alt="">
@@ -86,7 +86,7 @@ var cadastro =
             <span class="senha">Senha</span>
             <input class="input_text" type="password"></input>
 
-            <a class="continuar" href="./HomeMarketplace/marketplace.html"><div class="">Continuar</div></a>
+            <a class="continuar" href="./Home Marketplace/marketplace.html"><div class="">Continuar</div></a>
                 <span class="ou">OU</span>
                 <div class="icons">
                     <img src="cadastro/images/icon1.png" alt="">
