@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&display=swap');
+
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #252525;
+}
+
+.vimi_name {
+    display: flex;
+
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 37px;
+
+    color: #252525;
+
+
+}
+
+.logo {
+    width: 118.5px;
+    height: 45.66px;
+
+    cursor: pointer;
+}
+
+.container_blur {
+    margin-left: 10%;
+
+
+    width: 70%;
+
+
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+
+    background: #F4F4F4;
+    border-radius: 50px;
+}
+
+.container_blur .container_login_signin {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 24px;
+
+    color: #252525;
+
+    display: flex;
+
+    gap: 56px;
+
+    padding: 6%;
+}
+
+.entrar {
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+
+    padding-bottom: 5px;
+
+    border-color: #D6D6D6;
+
+    cursor: pointer;
+}
+
+.cadastrar {
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+
+    padding-bottom: 5px;
+
+    border-color: #7469AB;
+
+    cursor: pointer;
+
+}
+
+.container_box {
+    margin-left: 4%;
+    margin-bottom: 4%;
+
+    width: 90%;
+    height: 483px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.email {
+
+    padding-right: 58%;
+
+    margin-top: 8%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 24px;
+
+    color: #161515;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.input_text {
+    margin-top: 10px;
+
+    padding-left: 3%;
+
+    width: 80%;
+    height: 60px;
+
+    border-radius: 50px;
+
+    background: rgba(214, 214, 214, 0.6);
+
+    margin-bottom: 10%;
+
+    border: 0px;
+
+}
+
+
+.senha {
+    padding-right: 58%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 24px;
+
+    color: #161515;
+}
+
+
+.continuar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4%;
+
+    width: 80%;
+    height: 3em;
+
+    border-radius: 50px;
+
+    background: #7469AB;
+
+
+
+    cursor: pointer;
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 24px;
+}
+
+.ou {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #161515;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+
+    gap: 48px;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+}
+
+.painter {
+    margin-left: 15%;
+}
+
+.painter img {
+    width: 90%;
+
+}
+
+@media(min-width: 2560px) {
+
+    html {
+
+        font-size: 90%;
+
+    }
+
+    .vimi_name {
+
+        margin: 5% 10%;
+    }
+
+    .input_text {
+
+        height: 90px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+
+
+    .painter {
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    html {
+
+        font-size: 40%;
+
+    }
+
+
+    .container_blur {
+
+        width: 80%;
+
+
+    }
+
+    .painter {
+        display: none;
+    }
+
+    .ou {
+
+        margin-bottom: 15%;
+
+    }
+}
