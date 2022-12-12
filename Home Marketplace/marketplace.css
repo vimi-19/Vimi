@@ -66,6 +66,8 @@ nav a:hover {
 }
 
 .input-conteiner {
+    display: inline-flex;
+    align-items: center;
 
     background-color: #D6D6D6;
     border-radius: 20px;
