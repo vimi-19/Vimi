@@ -57,23 +57,27 @@ div button{
     
 }
 
-input{
-  
-    outline:0;
+input {
+
+    outline: 0;
     background: none;
     border-style: none;
     position: relative;
-    top: 3px;
-    left:25px;
+    left:5%;
+    width: 80%;
+    
 }
 
-.input-conteiner{
+.input-conteiner {
 
-    background-color:#D6D6D6;
+    display: inline-flex;
+    align-items: center;
+
+    background-color: #D6D6D6;
     border-radius: 20px;
-    margin-top: 27px;
     height: 3rem;
     width: 30rem;
+
 }
 
 
