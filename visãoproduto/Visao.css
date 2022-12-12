@@ -50,23 +50,27 @@ nav a:hover {
      
 }
 
-#texto{
-  
-    outline:0;
+#texto {
+
+    outline: 0;
     background: none;
     border-style: none;
     position: relative;
-    top: 3px;
-    left:30px;
+    left:5%;
     width: 80%;
+    
 }
 
-.input-conteiner{
+.input-conteiner {
 
-    background-color:#D6D6D6;
+    display: inline-flex;
+    align-items: center;
+
+    background-color: #D6D6D6;
     border-radius: 20px;
     height: 3rem;
     width: 30rem;
+
 }
 
 .conteiner-bt{
