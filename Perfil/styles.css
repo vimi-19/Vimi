@@ -70,17 +70,18 @@ nav a:hover {
 
 #texto {
 
-    outline: 0;
+   outline: 0;
     background: none;
     border-style: none;
     position: relative;
-    top: 3px;
-    left: 30px;
+    left:5%;
     width: 80%;
 
 }
 
 .input-conteiner {
+     display: inline-flex;
+    align-items: center;
 
     background-color: #D6D6D6;
     border-radius: 20px;
